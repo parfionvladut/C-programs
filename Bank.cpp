@@ -35,7 +35,7 @@ int main()
             case 2:
                 std::cout<<"Enter the sum you would like to extract:"<<'\n';
                 std::cin>>sum;
-                deposit(&balance, sum);
+                extract(&balance, sum);
                 std::cout<<"Your balance now is "<<balance<<'\n';
                 break;
             case 3:
